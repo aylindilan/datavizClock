@@ -17,13 +17,6 @@ function draw() {
 	}
 
 	
-	textSize(32);
-	fill(180);
-	text(hour(), 10, 30);
-	fill(100);
-	text(minute(), 10, 60);
-	fill(0);
-	text(second(), 10, 90);
 
 	let s = second();
 	let m = minute();
